@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Pesto Rosso">
+	<meta name="keywords" content="Итальянский ресторан для Вашей семьи">
+	<!-- Favicon -->
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+ 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+	<!-- OG Tags -->
+	<meta property="og:title" content="Pesto Rosso">
+	<meta property="og:description" content="Итальянский рестран для Вашей семьи">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="#" >
+	<meta property="og:site_name" content="#">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn:600,700,900&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- Bootstrap Reboot CSS -->
+	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Pop Up -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div id="preloader"></div>
+	<header id="header">
+		<div class="container">
+			<div class="nav">
+				<div class="row justify-content-between align-items-center">
+					<div class="col-md-3 col-sm-6 col-7">
+						<div class="logo">
+							<p class="logo__text">
+								Pesto Rosso 
+							</p>
+						</div>
+					</div>
+					<div class="d-none d-md-block col-lg-8 col-md-9 collapse"  id="collapseExample">
+						<ul class="menu__items d-flex justify-content-between">
+							<li>
+								<a href="#" class="menu__items-text">
+									Главная
+								</a>
+							</li>
+							<li>
+								<a href="#history" class="menu__items-text go-to">
+									О нас
+								</a>
+							</li>
+							<li>
+								<a href="#food" class="menu__items-text go-to">
+									Меню
+								</a>
+							</li>
+							<li>
+								<a href="#table" class="menu__items-text go-to">
+									Заказ столика
+								</a>
+							</li>
+							<li>
+								<a href="#contacts" class="menu__items-text go-to">
+									Контакты
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-3 d-md-none d-flex ml-auto">
+							<button class="btn-open" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapse">
+							<i class="fas fa-bars"></i>
+							</button>
+						</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="line"></div>
+					</div>
+				</div>
+			</div>
+			<div class="offer">
+				<div class="row">
+					<div class="col">
+						<div class="offer__items">
+							<img src="img/offer-Icon.png" alt="" class="offer__pic">
+							<h1 class="offer__title">
+								Making Food Taste Better
+							</h1>
+							<p class="offer__description-white">
+								Итальянский рестран для Вашей семьи
+							</p>
+							<div class="offer__description-wrapper">
+								<div class="offer__description-black-wrap">
+									<p class="offer__description-black">
+										Попробуйте эмоции на вкус!
+									</p>
+									<p class="offer__description-black">
+										Все возможно в ресторане
+									</p>
+								</div>
+								<span class="offer__logo align-self-center">
+									Pesto Rosso
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="history" id="history">
+		<div class="container">
+			<div class="contacts-between-wrap">
+				<div class="contacts-between">
+					<p class="contacts-between__title">
+						Контакты
+					</p>
+					<p class="contacts-between__text">
+						Мелодия итальянской кухни.<br/>Безупречное европейское обслуживание.
+					</p>
+					<p class="adress__title">
+						Адрес:
+					</p>
+					<p class="adress__text">
+						Сумы, ул. Мечтателей 15
+					</p>
+					<a href="#" class="to__map">
+						на карте:
+					</a>
+					<p class="timing__title">
+						Мы открыты для Вас:
+					</p>
+					<p class="timing__text">
+						Понедельник - Пятница.....................8:00 - 23:00
+					</p>
+					<p class="timing__text">
+						Суббота - Воскресенье.......................8:00 - 24:00
+					</p>
+					<button class="btn btn__form">
+						Заказать столик
+					</button>
+				</div>
+				<div class="history__pic">
+					<img src="img/about.jpg" alt="" class="steak">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h2 class="history__title">
+						История ресторана
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<p class="history__text">
+						История ресторана Pesto Rosso начинается с 1988 года, когда Джузеппе Тодиско приобретает это заведение. В ногу со временем, преодолевая трудности и стремясь к совершенству, это место приобрело успех среди искушенных туристов и местных жителей, ценителей итальянской кухни. Именно увлечение к искуству превратило его из повара в успешного ресторатора.
+					</p>
+					<p class="history__text">
+						Внутренняя атмосфера ресторана сразу настраивает на длительный и вкусный отдых, обязательно под бокал-другой вина. Взгляд то и дело цепляется за интерьерные особенности: подоконники, оформленные для сидения, мягкие пуфы в серебристых узорах, по форме напоминающие бутоны пионов, и потолок – настоящая плитка шоколада.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="author" id="author">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="author__title text-center">
+						Авторская кухня
+					</h2>
+				</div>
+			</div>
+			<div class="author__cards">
+				<div class="row md">
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="card">
+							<img src="img/icon-1.jpg" alt="eggs" class="card__pic">
+							<p class="card__text">
+								Фриттата - 120 грн
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="card">
+							<img src="img/icon-2.jpg" alt="fretata" class="card__pic">
+							<p class="card__text">
+								Торта ди Формальо - 110 грн
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="card">
+							<img src="img/icon-3.jpg" alt="pancakes" class="card__pic">
+							<p class="card__text">
+								Креспелле - 100 грн
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-sm-6">
+						<div class="card">
+							<img src="img/icon-4.jpg" alt="ice-cream" class="card__pic">
+							<p class="card__text">
+								Джелато - 50 грн
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="food" id="food">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="food__title">
+						Наше меню
+					</h2>
+					<p class="food__title-text">
+						У нас каждый гость найдет для себя достойное угощение:
+					</p>
+				</div>
+			</div>
+			<div class="food__parts-wrap">
+				<div class="food__part">
+					<div class="row">
+						<div class="col text-center">
+							<h3 class="food__part-title">
+								.......... Авторское меню ..........
+							</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Аквакотта
+									</h4>
+									<p class="food__item-text">
+										Сельдерей, морква, базалик, белые грибы, твердый сыр, яйца и чеснок
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Качукко
+									</h4>
+									<p class="food__item-text">
+										Лобстер, осьминог, акула, морской угорь, мурена, морской петух, сепия, бавоса, бычок
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										200грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Цыпленок качьятори
+									</h4>
+									<p class="food__item-text">
+										Томаты, бекон, грибы, лук, чеснок, вермут, смесь итальянских трав и специй
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										180грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Оссобуко из абрикос
+									</h4>
+									<p class="food__item-text">
+										Говядина. абрикосы, томаты, малина, лимон, белое сухое вино, петрушка, лук
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										230грн
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Феттучине с семгой
+									</h4>
+									<p class="food__item-text">
+										Семга, лапша, морковь, болгарский перец, фасоль, чеснок, базилик, соевый соус, пряности
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										350грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Стейк сирлоин
+									</h4>
+									<p class="food__item-text">
+										Мраморное мясо молодого бычка породы абедрин-ангус,	который обладает характерной текстурой и вкусом
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										350грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Стейк тендерлоин
+									</h4>
+									<p class="food__item-text">
+										Самая нежная и премиальная часть теленка, которые буквально тают во рту и не содержат жира
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										400грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Дорадо гриль
+									</h4>
+									<p class="food__item-text">
+										Ассорти премиальных видов говядины, свинины, рыбы,	курицы и овощей в соусе терияки
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										450грн
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="food__part">
+					<div class="row">
+						<div class="col text-center">
+							<h3 class="food__part-title">
+								............ Десерты ............
+							</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Тирамису
+									</h4>
+									<p class="food__item-text">
+										Итальянский творожный дессерт на основе сыра маскарпоне, савоярди, кофе, какао-порошок
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Панна-котта
+									</h4>
+									<p class="food__item-text">
+										Североитальянский десерт из сливок, сахара,	желатина и ванили
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Мятно-шоколадный парфе
+									</h4>
+									<p class="food__item-text">
+										Парфе-блюдо, приготовлено со сливок, взбитых с сахаром ванилью, мяты и мороженного
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Капрезе с ванильным соусом
+									</h4>
+									<p class="food__item-text">
+										Миндаль, шоколад и лимонная цедра
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Кофейный мусс с амаретто
+									</h4>
+									<p class="food__item-text">
+										Кофейный мусс полит шоколадным сиропом и украшен сливками с добавлением амаретто
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Морковный кекс
+									</h4>
+									<p class="food__item-text">
+										Морковный пирок с глазурью из марципана
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Лакричный парфе с ягодным соусом
+									</h4>
+									<p class="food__item-text">
+										Идеальное сочетание воздушных сливок, греческого йогурта, безе, земляники и малины
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+							<div class="food__items">
+								<div class="food__item">
+									<h4 class="food__items-title">
+										Джелато
+									</h4>
+									<p class="food__item-text">
+										Fiordilatte, Crema, Nocciola, Bacio, Pistacchio,Fragola, Stracciatella, Menta, Limone, Lampone, Albicocca, Pesca, Vesuvio, Etna
+									</p>
+								</div>
+								<div class="food__price">
+									<span class="food__price-item">
+										150грн
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="table" id="table">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h2 class="table__title">
+						Заказать столик
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="table__form">
+						<form action="contact-form.php" class="contact-form" method="post">
+							<div class="row">
+								<div class="col-lg-4 col-md-4">
+									<p class="contact-form__item">
+		            					<label for="name">Ваше имя:</label>
+		            					<input type="text"  name="name" placeholder="Name" required />
+		        					</p>
+	        					</div>
+	        					<div class="col-lg-4 col-md-4">
+		        					<p class="contact-form__item">
+							            <label for="tel">Номер телефона:</label>
+							            <input type="tel" name="tel" placeholder="Phone number" required />
+							            <span class="form_hint">Правильный формат "+380554443322"</span>
+							        </p>
+						        </div>
+						        <div class="col-lg-4 col-md-4">
+							        <p class="contact-form__item">
+		            					<label for="comment">Комментарий:</label>
+		            					<input type="text"  name="comment" placeholder="Booking time" required />
+		        					</p>
+						        </div>
+					        </div>
+					        <p class="text-center">
+					            <button class="submit" type="submit">Заказать!</button>
+					        </p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contacts" id="contacts">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-4">
+					<div class="map">
+						<h4 class="map__title">
+							Адрес:
+						</h4>
+						<p class="map__text">
+							Сумы, ул. Мечтателей
+						</p>
+						<button class="btn contacts__btn">
+							 на карте
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-4 offset-lg-1 col-md-4">
+					<div class="time-table">
+						<h4 class="timing__title">
+							Мы открыты для Вас:
+						</h4>
+						<p class="timing__text">
+							Понедельник - Пятница..............8:00 - 23:00
+						</p>
+						<p class="timing__text">
+							Суббота - Воскресенье................8:00 - 24:00
+						</p>
+						<button class="btn btn__form">
+							Заказать столик
+						</button>
+					</div>
+				</div>
+				<div class="col-lg-3 ml-auto col-md-4">
+					<div class="social">
+						<h4 class="social__title">
+							Мы в соцсетях
+						</h4>
+						<p class="social__text">
+							У нас всегда вкусно и утно.
+						</p>
+						<div class="social__items d-flex">
+							<a href="https://www.facebook.com/" class="social__item">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="https://twitter.com/" class="social__item">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="https://plus.google.com/" class="social__item">
+								<i class="fab fa-google-plus"></i>
+							</a>
+							<a href="https://www.youtube.com/" class="social__item">
+								<i class="fab fa-youtube"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p class="rights">
+						 © 2019 - Pesto Rosso  All Right Reserved
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /* ------ Pop-Up ------- */ -->
+	<div class="pop">
+		<div class="row">
+			<div class="col">
+		<div class="box-modal" id="exampleModal">
+			<div class="box-modal_close arcticmodal-close text-right">Закрыть</div>
+			<div class="popup-object">
+		       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40258.84025615895!2d34.77816372068072!3d50.901931394605406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41290220fc73a461%3A0xdb74f6366b836c28!2z0KHRg9C80YssINCh0YPQvNGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA0MDAwMA!5e0!3m2!1sru!2sua!4v1550773237334" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  			</div>
+    	</div>
+    </div>
+	</div>
+	</div>
+	<!-- /* ------ Pop-Up ------- */ -->
+	<div class="pop">
+		<div class="box-modal" id="exampleModal-2">
+			<div class="box-modal_close arcticmodal-close text-right">Закрыть</div>
+			<div class="popup-object">
+		       	<div class="table" id="table">
+					<div class="container">
+						<div class="row">
+							<div class="col text-center">
+								<h2 class="table__title">
+									Заказать столик
+								</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="table__form">
+									<form action="contact-form.php" class="contact-form" method="post">
+										<div class="row">
+											<div class="col-lg-4">
+												<p class="contact-form__item">
+					            					<label for="name">Ваше имя:</label>
+					            					<input type="text"  name="name" placeholder="Name" required />
+					        					</p>
+				        					</div>
+				        					<div class="col-lg-4">
+					        					<p class="contact-form__item">
+										            <label for="tel">Номер телефона:</label>
+										            <input type="tel" name="tel" placeholder="Phone number" required />
+										            <span class="form_hint">Правильный формат "+380554443322"</span>
+										        </p>
+									        </div>
+									        <div class="col-lg-4">
+										        <p class="contact-form__item">
+					            					<label for="comment">Комментарий:</label>
+					            					<input type="text"  name="comment" placeholder="Booking time" required />
+					        					</p>
+									        </div>
+								        </div>
+								        <p class="text-center">
+								            <button class="submit" type="submit">Заказать!</button>
+								        </p>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+  			</div>
+    	</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script> <!-- jQuery -->
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/bootstrap.min.js"></script> <!-- Bootstrap -->	
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script> <!-- Pop Up -->
+	<script src="js/main.js"></script> <!-- main js -->
+</body>
+</html>
